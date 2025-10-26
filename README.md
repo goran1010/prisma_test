@@ -4,4 +4,4 @@ This is a repo containing the files and code that were produced following the Ge
 
 When cloned and reproduced, running `node index.js` produces an error described in the already opened [issue](https://github.com/prisma/prisma/issues/28379) on Prisma Github.
 
-Need to create a `.env` file with `DATABASE_URL` variable before running `node index.js`.
+`.env` file with `DATABASE_URL` variable pointing to your PostgreSQL server is needed, before running `node index.js`.
